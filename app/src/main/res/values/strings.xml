@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MarkovLit</string>
+    <string name="author_Lovecraft">http://www.gutenberg.org/cache/epub/50133/pg50133.txt</string>
+    <string name="author_Shakespeare">https://www.gutenberg.org/files/100/100-0.txt</string>
+    <string name="author_Milton">https://www.gutenberg.org/files/20/20-0.txt</string>
+    <string name="author_Bible">http://www.gutenberg.org/cache/epub/10/pg10.txt</string>
 </resources>
