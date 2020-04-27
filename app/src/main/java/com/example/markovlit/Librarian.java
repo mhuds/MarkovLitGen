@@ -35,10 +35,10 @@ public class Librarian {
     }
 
     private void populateLit(){
-        String[] pile = {"http://www.gutenberg.org/cache/epub/50133/pg50133.txt",
+        String[] pile = {"https://www.gutenberg.org/cache/epub/50133/pg50133.txt",
             "https://www.gutenberg.org/files/100/100-0.txt",
             "https://www.gutenberg.org/files/20/20-0.txt",
-            "http://www.gutenberg.org/cache/epub/10/pg10.txt"};
+            "https://www.gutenberg.org/cache/epub/10/pg10.txt"};
         for(int idx=0; idx<pile.length;++idx){
             LITERATURE.put(AUTHORS.get(idx),pile[idx]);
         }
