@@ -22,6 +22,9 @@ public class Librarian {
         this.SOURCE = new String();
         this.LITERATURE = new HashMap<String,String>();
         this.STOP = new String("End of the Project Gutenberg EBook");
+
+        populateAuthors();
+        populateLit();
     }
 
     private void populateAuthors(){
